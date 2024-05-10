@@ -1,0 +1,17 @@
+/* .box{
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+} */
+
+.red{
+    background-color: brown;
+}
