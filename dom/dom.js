@@ -51,5 +51,19 @@
 
 // document.querySelector(".contatner").classList.toggle("red")
 
+// let list = document.getElementById("list");
+// let aboutLi = list.children[1];
+// let Newli = document.createElement("li");
+// Newli.innerHTML = "Services";
+// list.replaceChild(Newli, aboutLi);
+
+// function takevalue(){
+//     let name=document.getElementById("name").value;
+//     let password=document.getElementById("password").value;
+//     document.write(name+"<br>");
+//     document.write(password + "<br>");
+// }
+
+
 
 
