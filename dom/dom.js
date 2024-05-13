@@ -57,6 +57,8 @@
 // Newli.innerHTML = "Services";
 // list.replaceChild(Newli, aboutLi);
 
+// queation 1
+
 // function takevalue(){
 //     let name=document.getElementById("name").value;
 //     let password=document.getElementById("password").value;
@@ -67,3 +69,66 @@
 
 
 
+
+// let color = ['red','green','blue','orange','pink'];
+// let btn = document.getElementById('btn');
+// btn.addEventListener('click', function() {
+//     let randomColor = color[Math.floor(Math.random() * color.length)];
+//     document.body.style.background = randomColor;
+// });
+
+
+// let = [1,2,3,4,5,6,7,8,9,"A","B","C"];
+// let btn = document.getElementById('btn')
+
+
+// question  2
+
+
+// let btn = document.getElementById('btn');
+// btn.addEventListener('click', changeBackgroundColor);
+
+// function changeBackgroundColor() {
+//     let color = ['red', 'green', 'blue', 'orange', 'pink'];
+//     let randomColor = color[Math.floor(Math.random() * color.length)];
+//     document.body.style.background = randomColor;
+// }
+
+
+// question  3
+
+
+// let btn = document.getElementById('btn');
+// btn.addEventListener('click',ch);
+
+// function ch(){
+//     let num = [1,2,3,4,5,6,7,8,9,"A","B","C","D"];
+//     let randonnum = num[Math.floor(Math.random()*num.length)];
+//     document.body.textContent = randonnum;
+// }
+
+// let box1 = document.getElementById("#box");
+// let btn = document.getElementById('btn');
+// btn.addEventListener('click', ch);
+
+// function ch() {
+//     let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D"];
+//     let randomNum = num[Math.floor(Math.random() * num.length)];
+//     box.textContent = randomNum;
+// }
+
+
+// question  3
+
+// let box1 = document.getElementById("box");
+// let btn = document.getElementById('btn');
+// btn.addEventListener('click', ch);
+
+// function ch() {
+//     let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D"];
+//     let randomNum1 = num[Math.floor(Math.random() * num.length)];
+//     let randomNum2 = num[Math.floor(Math.random() * num.length)];
+//     let randomNum3 = num[Math.floor(Math.random() * num.length)];
+//     let subarr=[randomNum1,randomNum2,randomNum3].join(' ');
+//     box1.innerHTML = subarr;
+// }
