@@ -59,12 +59,12 @@
 
 // queation 1
 
-// function takevalue(){
-//     let name=document.getElementById("name").value;
-//     let password=document.getElementById("password").value;
-//     document.write(name+"<br>");
-//     document.write(password + "<br>");
-// }
+function takevalue(){
+    let name=document.getElementById("name").value;
+    let password=document.getElementById("password").value;
+    document.write(name+"<br>");
+    document.write(password + "<br>");
+}
 
 
 
@@ -78,8 +78,6 @@
 // });
 
 
-// let = [1,2,3,4,5,6,7,8,9,"A","B","C"];
-// let btn = document.getElementById('btn')
 
 
 // question  2
