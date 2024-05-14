@@ -43,40 +43,59 @@ let child = document.querySelector('.child');
 //     console.log('child bubbing')
 // },{capture:false})
 
-grandparent.addEventListener("click",(e)=>{
-    e.stopPropagation();
-    // console.log('grandparant bubbing');
-    alert('grandparant bubbing');
-    
-})
-
-parent.addEventListener("click",(e)=>{
-    e.stopPropagation();
-    alert('parent bubbing');
-
-})
-
-child.addEventListener("click",(e)=>{
-    // e.stopPropagation();
-    // console.log('child bubbing')
-    alert('child bubbing');
-})
-
-// grandparent.addEventListener("click",()=>{
-//     e.stopPropagation();
+// grandparent.addEventListener("click",(e)=>{
+//     // e.stopPropagation();
 //     // console.log('grandparant bubbing');
 //     alert('grandparant bubbing');
     
 // })
 
-// parent.addEventListener("click",()=>{
-//     e.stopPropagation();
+// parent.addEventListener("click",(e)=>{
+//     // e.stopPropagation();
 //     alert('parent bubbing');
 
 // })
 
-// child.addEventListener("click",()=>{
+// child.addEventListener("click",(e)=>{
 //     e.stopPropagation();
 //     // console.log('child bubbing')
 //     alert('child bubbing');
 // })
+
+// grandparent.addEventListener("click",(e)=>{
+//     // e.stopPropagation();
+//     // console.log('grandparant bubbing');
+//     console.log('grandparant bubbing');
+    
+// })
+
+// parent.addEventListener("click",(e)=>{
+//     // e.stopPropagation();
+//     console.log('parent bubbing');
+
+// })
+
+// child.addEventListener("click",(e)=>{
+//     e.stopPropagation();
+//     // console.log('child bubbing')
+//     console.log('child bubbing');
+// })
+
+grandparent.addEventListener("click",(e)=>{
+    // e.stopPropagation();
+    // console.log('grandparant bubbing');
+    console.log('grandparant bubbing');
+    
+},{once:true})
+
+parent.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    console.log('parent bubbing');
+
+},{once:true})
+
+child.addEventListener("click",(e)=>{
+    // e.stopPropagation();
+    // console.log('child bubbing')
+    console.log('child bubbing');
+},{once:true})
