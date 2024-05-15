@@ -142,5 +142,15 @@
 // console.log(e);
 
 
-// Event    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+let fragment = new DocumentFragment();
+let languages = ['html','css','javaScript'];
+let langel = document.querySelector('#language');
+ 
+languages.forEach((language)=>{
+    let li = document.createElement('li');
+    li.innerHTML = language;
+    fragment.appendChild(li);
+}
+);
+langel.appendChild(fragment);
 

@@ -1,6 +1,6 @@
-let grandparent = document.querySelector('.grandparent');
-let parent = document.querySelector('.parent');
-let child = document.querySelector('.child');
+// let grandparent = document.querySelector('.grandparent');
+// let parent = document.querySelector('.parent');
+// let child = document.querySelector('.child');
 
 // grandparent.addEventListener("click",()=>{
 //     console.log('grandparant bubbing');
@@ -81,21 +81,53 @@ let child = document.querySelector('.child');
 //     console.log('child bubbing');
 // })
 
-grandparent.addEventListener("click",(e)=>{
-    // e.stopPropagation();
-    // console.log('grandparant bubbing');
-    console.log('grandparant bubbing');
+// grandparent.addEventListener("click",(e)=>{
+//     // e.stopPropagation();
+//     // console.log('grandparant bubbing');
+//     console.log('grandparant bubbing');
     
-},{once:true})
+// },{once:true})
 
-parent.addEventListener("click",(e)=>{
-    e.stopPropagation();
-    console.log('parent bubbing');
+// parent.addEventListener("click",(e)=>{
+//     e.stopPropagation();
+//     console.log('parent bubbing');
 
-},{once:true})
+// },{once:true})
 
-child.addEventListener("click",(e)=>{
-    // e.stopPropagation();
-    // console.log('child bubbing')
-    console.log('child bubbing');
-},{once:true})
+// child.addEventListener("click",(e)=>{
+//     // e.stopPropagation();
+//     // console.log('child bubbing')
+//     console.log('child bubbing');
+// },{once:true})
+
+
+// grandparent.addEventListener("mouseenter",()=>{
+//     console.log("hovering");
+// });
+
+grandparent.addEventListener("mouseover",()=>{
+    console.log("hovering");
+ });
+// parent.addEventListener("mouseover",()=>{
+//     console.log("hovering");
+// });
+// child.addEventListener("mouseover",()=>{
+//     console.log("hovering");
+// });
+
+
+// grandparent.addEventListener("mouseout",()=>{
+//     console.log("hovering");
+//  });
+
+let grandparent = document.querySelector('.grandparent');
+let parent = document.querySelector('.parent');
+let child = document.querySelector('.child');
+
+
+//  grandparent.addEventListener("mouseleave",()=>{
+//     console.log("hovering");
+//  })
+
+
+
