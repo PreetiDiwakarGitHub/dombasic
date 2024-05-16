@@ -142,15 +142,25 @@
 // console.log(e);
 
 
-let fragment = new DocumentFragment();
-let languages = ['html','css','javaScript'];
-let langel = document.querySelector('#language');
+// let fragment = new DocumentFragment();
+// let languages = ['html','css','javaScript'];
+// let langel = document.querySelector('#language');
  
-languages.forEach((language)=>{
-    let li = document.createElement('li');
-    li.innerHTML = language;
-    fragment.appendChild(li);
-}
-);
-langel.appendChild(fragment);
+// languages.forEach((language)=>{
+//     let li = document.createElement('li');
+//     li.innerHTML = language;
+//     fragment.appendChild(li);
+// }
+// );
+// langel.appendChild(fragment);
 
+let lang = document.querySelector("#language");
+let languages = ["c",'c++','python','java'];
+
+const items = languages.map((language)=>{
+    const li = document.createElement('li');
+    li.innerHTML = language;
+    return li;
+})
+
+lang.lastChild.after(...items);
